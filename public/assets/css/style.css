@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'JetBrains Mono', sans-serif;
+    src: url('fonts/JetBrainsMono/JetBrainsMono-Regular.ttf');
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: 100%;
+    font-family: 'JetBrains Mono', sans-serif !important;
+}
+
+.game {
+    border-radius: 10px;
+    background: linear-gradient(to right, gray, darkgray) no-repeat fixed;
+    padding: 25px;
+    min-width: 500px;
+    text-align: center;
+}
+
+.botao {
+    border-radius: 5px;
+    padding: 10px;
+    background: darkorange;
+    border: none;
+    cursor: pointer;
+    font-family: "JetBrains Mono", sans-serif;
+}
+
+.success {
+    background-color: green;
+}
+
+.error {
+    background-color: orangered;
+}

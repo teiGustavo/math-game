@@ -1,0 +1,30 @@
+{
+  "name": "lorena/mathgame",
+  "description": "Math Game!",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "MathGame\\": "src/"
+    },
+    "files": [
+      "src/Config.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Gustavo Teixeira de Sousa",
+      "email": "gteixeiradesousa7@gmail.com"
+    },
+    {
+      "name": "Nícolas Duarte Venancio",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": "8.*",
+    "ext-pdo": "*",
+    "gteixeira/math-expression-generator": "0.0.1",
+    "coffeecode/datalayer": "^2.0"
+  }
+}

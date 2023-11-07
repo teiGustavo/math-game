@@ -1,0 +1,118 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "40e65f171d01f76e4e158b13fc612088",
+    "packages": [
+        {
+            "name": "coffeecode/datalayer",
+            "version": "2.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/robsonvleite/datalayer.git",
+                "reference": "619eb838783a3d2488d98f8a879dd772e62b444f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/robsonvleite/datalayer/zipball/619eb838783a3d2488d98f8a879dd772e62b444f",
+                "reference": "619eb838783a3d2488d98f8a879dd772e62b444f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CoffeeCode\\DataLayer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robson V. Leite",
+                    "email": "cursos@upinside.com.br",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The data layer is a persistent abstraction component of your database that PDO",
+            "homepage": "https://www.upinside.com.br",
+            "keywords": [
+                "Coffeecode",
+                "crud",
+                "database",
+                "delete",
+                "destroy",
+                "pdo",
+                "save",
+                "upinside"
+            ],
+            "support": {
+                "issues": "https://github.com/robsonvleite/datalayer/issues",
+                "source": "https://github.com/robsonvleite/datalayer/tree/2.0.7"
+            },
+            "time": "2023-01-17T16:36:21+00:00"
+        },
+        {
+            "name": "gteixeira/math-expression-generator",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/teiGustavo/math-expression-generator.git",
+                "reference": "f25b783e430bdf631a1a428775fae4670235cb0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/teiGustavo/math-expression-generator/zipball/f25b783e430bdf631a1a428775fae4670235cb0e",
+                "reference": "f25b783e430bdf631a1a428775fae4670235cb0e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "config.php"
+                ],
+                "psr-4": {
+                    "Gteixeira\\MathExpressionGenerator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gustavo Teixeira",
+                    "email": "gteixeiradesousa7@gmail.com"
+                }
+            ],
+            "description": "Gerador de expressões matemáticas e suas resoluções",
+            "support": {
+                "issues": "https://github.com/teiGustavo/math-expression-generator/issues",
+                "source": "https://github.com/teiGustavo/math-expression-generator/tree/1.0.0"
+            },
+            "time": "2023-10-29T04:26:53+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "8.*",
+        "ext-pdo": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
